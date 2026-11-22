@@ -1,0 +1,20 @@
+1~5~-3308225~2~-2578~-32944
+Başlat_22264841~basla~~Başlat~~100~832~90~35~-65281~-1331~-12156236~Consolas~11~0~-16777216
+Değişken_22265012~degisken~toplam=0,baslangic=1,bitis~~~199~792~180~35~-65281~-1331~-12156236~Consolas~11~0~-16777216
+Giriş_22270427~giris~~"Ardışık sayıları toplamak için bir bitiş sayısı belirleyiniz"~bitis~306~714~300~35~-65281~-1331~-12156236~Consolas~11~0~-16777216
+Eğer_22283235~eger~baslangic<=bitis~~~424~785~140~50~-65281~-1331~-12156236~Consolas~11~0~-16777216
+İşlem_2229194~islem~toplam=baslangic+toplam~~~431~1112~160~30~-65281~-1331~-12156236~Consolas~11~0~-16777216
+İşlem_22301372~islem~baslangic=baslangic+1~~~538~1119~160~30~-65281~-1331~-12156236~Consolas~11~0~-16777216
+Çıkış_22304277~cikis~~"Sonuç....: "~toplam~567~680~300~35~-65281~-1331~-12156236~Consolas~11~0~-16777216
+Durdur_22311342~durdur~~Durdur~~736~769~90~35~-65281~-1331~-12156236~Consolas~11~0~-16777216
+deger_izle_22311670~deger_izle~toplam,baslangic,bitis~~~636~738~180~35~-65281~-1331~-12156236~Consolas~11~0~-16777216
+2
+Çizgi-222653~Başlat_22264841~Değişken_22265012~
+Çizgi-222829~Değişken_22265012~Giriş_22270427~
+Çizgi-222835~Giriş_22270427~Eğer_22283235~
+Çizgi-222928~Eğer_22283235~İşlem_2229194~EVET
+Çizgi-223018~İşlem_2229194~İşlem_22301372~
+Çizgi-223039~İşlem_22301372~Eğer_22283235~
+Çizgi-223044~Eğer_22283235~Çıkış_22304277~HAYIR
+Çizgi-223120~Çıkış_22304277~deger_izle_22311670~
+Çizgi-223128~deger_izle_22311670~Durdur_22311342~
